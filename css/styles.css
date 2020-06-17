@@ -13,6 +13,19 @@ img, button {
 	background: #e6e6e6;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /*@media (max-width: 768px) {
 
 }*/
+
+img {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
