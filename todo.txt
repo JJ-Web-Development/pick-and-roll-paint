@@ -1,0 +1,3 @@
+add email and phone (with mailto and tel)
+add carousel of clients
+add link to tweet/instagram with hashtag
