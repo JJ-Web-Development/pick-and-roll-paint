@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <style type="text/css">
-.st0{fill:#CC5A29;}
-.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
-.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#FFFFFF;stroke-width:1.5;}
+.st2{fill:none;stroke:#000000;stroke-width:3;}
 </style>
-<path class="st0" d="M48,26c0,17.7,0,32,0,32c0,2.2-7.2,4-16,4s-16-1.8-16-4c0,0,0-14.3,0-32c0,2.2,7.2,4,16,4S48,28.2,48,26z"/>
+<path fill="hsl(20, 67%, 50%)" d="M48,26c0,17.7,0,32,0,32c0,2.2-7.2,4-16,4s-16-1.8-16-4c0,0,0-14.3,0-32c0,2.2,7.2,4,16,4S48,28.2,48,26z"/>
+<path fill="hsl(20, 67%, 40%)" class="st0" d="M16,26c0-2.2,7.2-4,16-4s16,1.8,16,4s-7.2,4-16,4S16,28.2,16,26z"/>
 
 <path class="st1" d="M16,42c0,0,14.3,0,32,0"/>
 <circle class="st1" cx="32" cy="42" r="4"/>
