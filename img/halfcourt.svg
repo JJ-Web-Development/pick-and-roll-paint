@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 32">
 <style type="text/css">
-*{fill:none;stroke:#444;stroke-width:1.5;}
+*{fill:none;stroke:#cccccc;stroke-width:1.5;}
 </style>
 <path d="M12,16c0,2.2-1.8,4-4,4"/>
 <path d="M12,16c0-2.2-1.8-4-4-4"/>
