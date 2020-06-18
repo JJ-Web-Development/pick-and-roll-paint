@@ -1,6 +1,8 @@
 halfcourt fullcourt icons for pricing section
 add email and phone (with mailto and tel)
 
+test b&w bg img
+
 js to make select btns under pricing select option in form
 clicking CTA btns doesn't scroll far enough down
 
