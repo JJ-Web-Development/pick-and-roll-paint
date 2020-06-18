@@ -1,4 +1,3 @@
-halfcourt fullcourt icons for pricing section
 add email and phone (with mailto and tel)
 
 test b&w bg img
