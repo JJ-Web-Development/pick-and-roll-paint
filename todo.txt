@@ -1,3 +1,8 @@
+halfcourt fullcourt icons for pricing section
 add email and phone (with mailto and tel)
+
+js to make select btns under pricing select option in form
+clicking CTA btns doesn't scroll far enough down
+
 add carousel of clients
 add link to tweet/instagram with hashtag

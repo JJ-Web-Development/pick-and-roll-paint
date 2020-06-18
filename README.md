@@ -1,3 +1,5 @@
-# Pick & Roll Paints Website
+# Pick & Roll Paints
 
-by Jack and Justin
+Pick and Roll Paints is a Richmond, Virginia based service company that paints driveway courts for low costs.
+
+Website by Jack and Justin
