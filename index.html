@@ -32,7 +32,10 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <header class="text-white body-font sticky bg-orange-600 top-0" style="border-bottom: 0.25rem solid black">
+    <header
+      class="text-white body-font sticky bg-orange-600 top-0"
+      style="border-bottom: 0.25rem solid black;"
+    >
       <div
         class="container mx-auto flex flex-wrap p-5 py-3 flex-col md:flex-row items-center"
       >
@@ -49,46 +52,77 @@
         <nav
           class="md:ml-auto md:ml-auto flex flex-wrap items-center text-base justify-center"
         >
-          <a class="mr-5 hover:underline outline-none border-transparent border-2 focus:border-orange-300 p-2" href="#"
+          <a
+            class="mr-5 hover:underline outline-none border-transparent border-2 focus:border-orange-300 p-2"
+            href="#"
             ><i class="fas fa-home"></i> Home</a
           >
-          <a class="mr-5 hover:underline outline-none border-transparent border-2 focus:border-orange-300 p-2" href="#about"
+          <a
+            class="mr-5 hover:underline outline-none border-transparent border-2 focus:border-orange-300 p-2"
+            href="#about"
             ><i class="fas fa-user-circle"></i> About</a
           >
-          <a id="contact-link" class="mr-5 hover:underline outline-none border-transparent border-2 focus:border-orange-300 p-2" href="#contact"
+          <a
+            id="contact-link"
+            class="mr-5 hover:underline outline-none border-transparent border-2 focus:border-orange-300 p-2"
+            href="#contact"
             ><i class="fas fa-envelope"></i> Contact</a
           >
         </nav>
       </div>
     </header>
 
-
-<section id="hero" class="text-white body-font" style="background-image: url('img/clients/client1.jpg'); background-repeat: no-repeat; background-position: center;background-size: cover;">
-  <div class="container mx-auto flex px-5 py-20 items-center justify-center" style="background-color: rgba(0,0,0,0.25)">
-    <div class="text-center lg:w-2/3 w-full">
-      <img src="img/logo.svg" class="mx-auto p-2 bg-white rounded-full" width="72px" style="box-shadow: 4px 4px rgba(0,0,0,0.5">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">Pick & Roll Paints</h1>
-      <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
-      <div class="flex justify-center">
-        <button id="contact-btn"
+    <section
+      id="hero"
+      class="text-white body-font"
+      style="
+        background-image: url('img/clients/client1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div
+        class="container mx-auto flex px-5 py-20 items-center justify-center"
+        style="background-color: rgba(0, 0, 0, 0.5);"
+      >
+        <div class="text-center lg:w-2/3 w-full">
+          <img
+            src="img/logo.svg"
+            class="mx-auto p-2 bg-white rounded-full"
+            width="72px"
+            style="box-shadow: 4px 4px rgba(22, 16, 16, 0.5);"
+          />
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
+            Pick & Roll Paints
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Who doesn’t want to practice on their outdoor hoop with a fully
+            painted basketball court including the paint and a three point arc?
+            Whether it is for training or just having fun, playing basketball
+            with correctly marked dimensions is sure to draw your kids outside
+            and help them stay active.
+          </p>
+          <div class="flex justify-center">
+            <button
+              id="contact-btn"
               class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg outline-none border-transparent border-2 focus:border-orange-800 p-2"
             >
               <i class="fas fa-envelope"></i> &nbsp; Contact
             </button>
-            <button
+            <!-- <button
               class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg outline-none border-transparent border-2 focus:border-gray-600 p-2"
             >
               <i class="fas fa-image"></i> &nbsp; Gallery
-            </button>
+            </button> -->
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <!-- <section class="text-gray-700 body-font"> -->
     <!-- <section class="text-white body-font" style="background-image: url('img/clients/client1.jpg'); background-repeat: no-repeat; background-position: center;background-size: cover;"> -->
-<!--       <div
+    <!--       <div
         class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center"
       >
         <div
@@ -134,26 +168,14 @@
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div
-                class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400"
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-10 h-10"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </div>
+                class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400 bg-cover"
+                style="background-image: url(./img/clients/profile-pic.jpeg);"
+              ></div>
               <div
                 class="flex flex-col items-center text-center justify-center"
               >
                 <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                  Phoebe Caulfield
+                  AB and Charlie Bugg
                 </h2>
                 <div class="w-12 h-1 bg-orange-500 rounded mt-2 mb-4"></div>
                 <p class="text-base text-gray-600">
@@ -165,19 +187,21 @@
             <div
               class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left"
             >
-              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">About</h1>
+              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
+                About
+              </h1>
               <p class="leading-relaxed text-lg mb-4">
-                Meggings portland fingerstache lyft, post-ironic fixie man bun
-                banh mi umami everyday carry hexagon locavore direct trade art
-                party. Locavore small batch listicle gastropub farm-to-table
-                lumbersexual salvia messenger bag. Coloring book flannel
-                truffaut craft beer drinking vinegar sartorial, disrupt fashion
-                axe normcore meh butcher. Portland 90's scenester vexillologist
-                forage post-ironic asymmetrical, chartreuse disrupt butcher
-                paleo intelligentsia pabst before they sold out four loko. 3
-                wolf moon brooklyn.
+                AB and Charlie are siblings from Richmond, Virginia who are home
+                from college for the summer. AB is a recent graduate from the
+                University of Virginia where she majored in Economics and
+                Charlie is a current Consulting and Data Analytics student at
+                the University of Richmond. They are both incredibly passionate
+                about basketball and want to be able to spread that passion
+                around Richmond.
               </p>
-              <a class="text-orange-500 inline-flex items-center cursor-pointer outline-none border-transparent border-2 focus:border-orange-300 p-2" href="#contact" 
+              <a
+                class="text-orange-500 inline-flex items-center cursor-pointer outline-none border-transparent border-2 focus:border-orange-300 p-2"
+                href="#contact"
                 >Reach out &nbsp; <i class="fas fa-arrow-right"></i>
               </a>
             </div>
@@ -189,7 +213,9 @@
     <hr class="m-10" />
 
     <section id="contact">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-center">Contact</h1>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-center">
+        Contact
+      </h1>
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSd8oaH680akHX3aiFsm60FCA3eTAcSiDelc1VZ_-jFgU5So9w/viewform?embedded=true"
         width="100%"
