@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 32">
+<style type="text/css">
+*{fill:none;stroke:#cccccc;stroke-width:1.5;}
+</style>
+<path d="M12,16c0,2.2-1.8,4-4,4"/>
+<path d="M12,16c0-2.2-1.8-4-4-4"/>
+<path d="M0,20c0,0,3.6,0,8,0"/>
+<path d="M0,12c0,0,3.6,0,8,0"/>
+<path d="M8,12c0,4.4,0,8,0,8"/>
+<path d="M12,16c0,6.6-5.4,12-12,12"/>
+<path d="M12,16C12,9.4,6.6,4,0,4"/>
+</svg>
